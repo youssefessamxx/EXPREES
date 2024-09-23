@@ -1,0 +1,44 @@
+.div {
+  background-color: #f05b1f;
+  color: #fff;
+  /* display: flex;
+  justify-content: space-between; */
+
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 20px;
+}
+
+.info_container {
+  font-size: 3rem;
+  font-weight: 700;
+  /* line-height: 46.85px; */
+  line-height: 2;
+  padding: 8rem 4.2rem 4.2rem 2rem;
+}
+
+.p1 {
+  margin-bottom: 1.8rem;
+}
+
+.div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.swipers {
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 8rem;
+}
+
+.swipers > * {
+  width: 1.6rem;
+  height: 1.7rem;
+  border-radius: 3px;
+  background: #fff;
+}

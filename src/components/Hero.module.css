@@ -1,0 +1,56 @@
+.div {
+  background-image: url("../assets/Hero.png");
+  background-size: cover;
+  background-position: center;
+  /* background-origin: content-box; */
+  /* background-repeat: no-repeat; */
+
+  height: 70rem;
+  padding: 11.1rem 3.8rem 11.1rem 3.8rem;
+}
+
+.text {
+  width: 45%;
+}
+
+.div h1 {
+  color: #fff;
+  font-size: 6.4rem;
+}
+
+.div span {
+  display: block;
+  color: #f05b1f;
+  text-transform: uppercase;
+}
+
+.div p {
+  color: #fff;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 2;
+}
+
+.swiper {
+  display: flex;
+  gap: 0.5rem;
+}
+.swiper div {
+  background-color: #dee2e6;
+  height: 0.8rem;
+  width: 2rem;
+  border-radius: 9px;
+}
+.swiper .swiper1 {
+  background-color: #f05b1f;
+  width: 14rem;
+}
+.swiper .swiper2 {
+  width: 5rem;
+}
+.swiper .swiper3 {
+  width: 3rem;
+}
+.swiper .swiper4 {
+  width: 2rem;
+}

@@ -1,0 +1,85 @@
+.div {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+  gap: 3.2rem;
+  background-color: #000;
+  color: #fff;
+
+  padding: 4rem 4.2rem 5rem;
+}
+
+.div h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 3.2rem;
+}
+
+.div h2:before {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  width: 10rem;
+  height: 0.1rem;
+  background-color: #f05b1f;
+  border-radius: 5px;
+}
+
+.div p {
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: 0 3rem 0 0;
+  margin-bottom: 2.4rem;
+  line-height: 2;
+}
+.div img {
+  width: 70%;
+}
+
+.socialMedia {
+}
+
+.socialMedia a {
+  color: #fff;
+  font-size: 1.4rem;
+  transition: all 0.3s;
+}
+
+.socialMedia ul {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+}
+
+.socialMedia li a {
+  color: #000;
+  background-color: #fff;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.3rem;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.socialMedia li a:hover {
+  background-color: #ced4da;
+}
+
+.links a,
+.div li {
+  /* display: inline-block; */
+  font-size: 2rem;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 1.2rem;
+}
+
+a {
+  color: #fff;
+}
+
+.app {
+  justify-self: end;
+}

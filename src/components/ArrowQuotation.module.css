@@ -1,0 +1,17 @@
+.div {
+  font-size: 1.8rem;
+  font-weight: 700;
+  background-color: #f05b1f;
+  padding: 1.4rem 4.5rem 1.4rem 4.5rem;
+  border-radius: 5rem;
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  cursor: pointer;
+
+  transition: all 0.3s;
+}
+
+.div:hover {
+  background-color: #e24d05;
+}

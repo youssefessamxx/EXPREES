@@ -1,0 +1,63 @@
+.div {
+  background-color: #000;
+  color: #fff;
+  height: 6.9rem;
+  padding: 0 1.5rem 0 1.6rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-top: 1px solid #fff;
+}
+
+.div img {
+  padding-top: 1rem;
+}
+
+.nav {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  gap: 3.6rem;
+}
+
+.nav li a {
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.nav li a:hover {
+  color: #ced4da;
+}
+
+.ctaNav {
+  font-size: 2rem;
+  font-weight: 700;
+
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.ctaNav a,
+.ctaNav p {
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.ctaNav a {
+  margin-left: 2.4rem;
+}
+.ctaNav a:hover,
+.ctaNav p:hover {
+  color: #ced4da;
+}
+
+.ctaNav p {
+  cursor: pointer;
+}

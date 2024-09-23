@@ -1,0 +1,33 @@
+.div {
+  background-image: url("../assets/questions.png.png");
+  background-size: cover;
+  background-position: center;
+  padding: 6rem 9rem;
+  color: #fff;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 3.2rem;
+}
+
+.title h2 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.title span {
+  display: inline-block;
+  width: 10.58rem;
+  height: 0.1rem;
+  border-radius: 4px;
+  background-color: #f05b1f;
+}
+
+.questions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  column-gap: 12rem;
+  row-gap: 4rem;
+}

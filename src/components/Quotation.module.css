@@ -1,0 +1,101 @@
+.div header {
+  background-image: url("../assets/quotation.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  height: 62rem;
+  width: 100%;
+  padding: 0 6rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.div header h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #f05b1f;
+}
+
+form {
+  padding: 2.6rem 2rem;
+}
+
+form img {
+  width: 3rem;
+  height: 3rem;
+}
+
+form h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #f05b1f;
+
+  display: flex;
+  align-items: center;
+  gap: 0.3em;
+}
+
+.formContainer {
+  display: flex;
+  gap: 13rem;
+  margin-top: 2.4rem;
+}
+
+.formContainer div {
+  width: 47.3rem;
+}
+
+.formContainer label {
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #000;
+  margin-bottom: 0.5rem;
+}
+
+.formContainer input {
+  font-size: 1.6rem;
+  font-weight: 600;
+  width: 100%;
+  display: block;
+  border: 0.6px solid #5f5f5f;
+  padding: 1.6rem 1.2rem 1.6rem 1.2rem;
+  outline: none;
+  border-radius: 4px;
+  margin-bottom: 2.8rem;
+}
+
+.buttons {
+  display: block;
+  font-size: 4rem;
+  text-align: right;
+  margin-right: 5.5rem;
+}
+
+.buttons button {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 2rem 4.9rem 2rem 4.9rem;
+  border-radius: 4px;
+  margin-left: 1.4rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.cancel {
+  background-color: #000;
+}
+.cancel:hover {
+  background-color: #191919;
+}
+.send {
+  background-color: #f05b1f;
+}
+.send:hover {
+  background-color: #e24d05;
+}

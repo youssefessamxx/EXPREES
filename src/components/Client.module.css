@@ -1,0 +1,43 @@
+.div {
+  padding: 6.2rem 4.2rem 5rem;
+}
+
+.div h2 {
+  font-size: 4rem;
+  font-weight: 600;
+  text-align: center;
+  color: #f05b1f;
+  margin-bottom: 4.2rem;
+}
+
+.clients {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.swiper {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  /* text-align: center; */
+  margin-top: 3.2rem;
+}
+.swiper div {
+  background-color: #dee2e6;
+  height: 0.8rem;
+  width: 2rem;
+  border-radius: 9px;
+}
+.swiper .swiper1 {
+  background-color: #f05b1f;
+  width: 14rem;
+}
+.swiper .swiper2 {
+  width: 5rem;
+}
+.swiper .swiper3 {
+  width: 3rem;
+}
+.swiper .swiper4 {
+  width: 2rem;
+}

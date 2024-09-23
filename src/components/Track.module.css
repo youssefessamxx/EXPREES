@@ -1,0 +1,51 @@
+.div {
+  background-color: #1e1e1e;
+  height: 10rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.div button,
+.quotation {
+  background-color: #f05b1f;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.div button:hover,
+.quotation:hover {
+  background-color: #e24d05;
+}
+
+.quotation {
+  font-size: 1.8rem;
+  padding: 1.4rem 4.5rem 1.4rem 4.5rem;
+  border-radius: 0rem 5rem 5rem 0rem;
+}
+
+.track {
+  margin: 0 20%;
+}
+
+.track input {
+  border: none !important;
+  outline: none !important;
+  width: 50rem;
+  height: 5rem;
+  padding: 0.8rem 1.2rem 0.8rem 1.2rem;
+  border-radius: 8px;
+  margin-right: 2rem;
+}
+
+button[type="submit"] {
+  display: inline-block;
+  font-size: 2rem;
+  height: 5rem;
+  padding: 0.1rem 5.4rem 0.1rem 5.4rem;
+  border-radius: 5px;
+}

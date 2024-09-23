@@ -1,0 +1,31 @@
+.div {
+  background-color: #1e1e1e;
+  height: 10rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.div div {
+  margin: 0 auto;
+}
+
+.div button {
+  background-color: #f05b1f;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.div input {
+  border: none !important;
+  outline: none !important;
+  width: 50rem;
+  height: 5rem;
+  padding: 0.8rem 1.2rem 0.8rem 1.2rem;
+  border-radius: 8px;
+  margin-right: 2rem;
+}
